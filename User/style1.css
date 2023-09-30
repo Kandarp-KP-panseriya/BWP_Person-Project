@@ -1,0 +1,174 @@
+.body {
+
+    background-color: rgb(241, 234, 240);
+}
+
+.container-fluid {
+    background-color: rgb(142, 15, 70);
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.logo {
+    padding-right: 5%;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+#carouselExampleAutoplaying {
+    width: 50%;
+    margin-right: 1%;
+    float: right;
+    text-align: center;
+    font-style: bold;
+    padding: 1%;
+}
+
+.list-group {
+    width: 47%;
+    margin-left: 1%;
+}
+
+.list-group a {
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: rgb(142, 15, 70);
+    padding: 5% 0% 5% 0%;
+}
+
+.cardp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+.card {
+    width: 30%
+}
+
+.card-1 {
+    border: solid 2xp blue;
+}
+
+.accordion {
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+}
+
+.accordion-header button {
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgb(221, 68, 137);
+}
+
+.card-body p {
+    overflow: auto;
+    height: 150px;
+}
+
+footer {
+    font-size: 100%;
+    background-color: rgb(142, 15, 70);
+    color: white;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    font-weight: bold;
+    width: 30%;
+    padding: 1%
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.form-f {
+    font-size: 1vw;
+}
+
+
+@media (width <=1199px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (width <=991px) {
+
+    footer {
+        font-size: 70%;
+    }
+
+    .input-group span {
+        font-size: 0.5rem;
+    }
+}
+
+@media (width <=767px) {}
+
+@media (width <=575px) {
+
+    #carouselExampleAutoplaying {
+        width: auto;
+    }
+
+    .list-group {
+        width: auto;
+    }
+
+    .cardp {
+        display: inline;
+        text-align: center;
+    }
+
+    .list-group a {
+        font-size: 4vw;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .footer-main {
+        display: inline;
+        font-size: 15px;
+    }
+
+    .text-center {
+        width: 90%;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        padding-bottom: 5%;
+    }
+
+
+}
+
+
+@media (width <=500px) {
+
+    .list-group a {
+        font-size: 2vw;
+    }
+
+}
